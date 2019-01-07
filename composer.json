@@ -20,7 +20,7 @@
       "aura/payload": "^3.0",
       "guzzlehttp/guzzle": "^6.3",
       "narrowspark/http-emitter": "^0.6",
-      "relay/relay": "@dev",
+      "relay/relay": "^2.0",
       "middlewares/request-handler": "^1.4",
       "middlewares/aura-router": "^1.0",
       "monolog/monolog": "@dev"

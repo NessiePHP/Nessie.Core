@@ -9,7 +9,7 @@ require '../vendor/autoload.php';
 // todo cache container for production
 
 $config = [
-    'Nessie\ProjectSrc\Config\Config',
+    'Nessie\Core\Config\Config',
 ];
 
 $relay = (new ContainerBuilder())->newConfiguredInstance($config)->get('nessie/project:relay');

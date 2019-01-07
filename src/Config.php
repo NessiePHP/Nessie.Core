@@ -1,6 +1,6 @@
 <?php
 
-namespace Nessie\Core\Config;
+namespace Nessie\Core;
 
 use Aura\Di\Container;
 use Aura\Di\ContainerConfig;
