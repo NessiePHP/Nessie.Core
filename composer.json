@@ -1,0 +1,28 @@
+{
+    "name": "nessie/core",
+    "type": "library",
+    "description": "",
+    "minimum-stability": "dev",
+    "license": "",
+    "authors": [
+        {
+            "name": ""
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Nessie\\Core\\Config\\": "config/",
+        "Nessie\\Core\\": "src/"
+      }
+    },
+    "require": {
+      "aura/di": "^3.4",
+      "aura/payload": "^3.0",
+      "guzzlehttp/guzzle": "^6.3",
+      "narrowspark/http-emitter": "^0.6",
+      "relay/relay": "@dev",
+      "middlewares/request-handler": "^1.4",
+      "middlewares/aura-router": "^1.0",
+      "monolog/monolog": "@dev"
+    }
+}
